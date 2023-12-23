@@ -1,0 +1,103 @@
+.footer {
+  margin-top: 100px;
+  @media screen and (max-width: 1024px) {
+    margin-top: 70px;
+  }
+  &_top {
+    border-bottom: 1px solid rgba(26, 17, 20, 0.1);
+    padding-bottom: 70px;
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact {
+      flex-grow: 1;
+      border: 1px solid rgba(236, 128, 160, 1);
+      border-radius: 10px;
+      height: 50px;
+      padding-left: 20px;
+      display: flex;
+      align-items: center;
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+        flex-grow: 0;
+      }
+      input {
+        outline: none;
+        border: none;
+        display: inline-block;
+        font-style: 15px;
+        line-height: 26px;
+        padding: 11px 16px 11px 5px;
+        flex-grow: 1;
+        @media screen and (max-width: 428px) {
+          width: calc(100% - 142px);
+          flex-grow: 1;
+        }
+      }
+
+      i {
+        color: rgba(26, 17, 20, 0.6);
+      }
+
+      button {
+        background-color: #ec80a0;
+        border-radius: 0 10px 10px 0;
+        padding: 11px 20px 13px 20px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 17px;
+      }
+    }
+    .footer_title {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 22px;
+      width: 206px;
+
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .logo {
+      @media screen and (max-width: 1024px) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  &_bottom {
+    margin-top: 70px;
+    padding-bottom: 70px;
+    .title {
+      margin-bottom: 30px;
+    }
+
+    li {
+      margin-bottom: 20px;
+      display: flex;
+      gap: 21px;
+      align-items: flex-start;
+      max-width: 240px;
+      i {
+        display: block;
+        padding-top: 8px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .copy-right {
+    border-top: 1px solid rgba(26, 17, 20, 0.1);
+    padding: 27px 0;
+    color: #1a1114;
+  }
+}

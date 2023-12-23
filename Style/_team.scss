@@ -1,0 +1,48 @@
+#section--4 {
+  .list-item--team {
+    align-items: stretch;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px 3px rgba(10, 30, 35, 0.1);
+    text-align: center;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    &_ava {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      overflow: hidden;
+      object-fit: cover;
+      margin-bottom: 25px;
+    }
+
+    &_name{
+      font-family: "Barlow", sans-serif;
+      margin-bottom: 5px;
+    }
+
+    &_title{
+      color: rgba(26, 17, 20, 0.5);
+      font-size: 15px;
+      line-height: 26px;
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    &_decs{
+      color: #0A1E23;
+      margin-bottom: 15px;
+    }
+  }
+
+  .list-icon{
+    display: flex;
+    gap: 13px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,29 @@
+#section--2 {
+  .item {
+    box-shadow: 0 0 15px 5px rgba(26, 17, 20, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 30px;
+    &_number {
+      color: #ec80a0;
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 55px;
+      font-family: "Sansita", sans-serif;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    &_title {
+      font-family: "Barlow", sans-serif;
+      margin-bottom: 10px;
+    }
+
+    &_decs {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #0a1e23;
+    }
+  }
+}

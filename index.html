@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700&family=Sansita:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/Style/reset.css" />
+  <link rel="stylesheet" href="/Style/style.css" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+          }
+        }, screens: {
+          "sm": '640px',
+          "md": '768px',
+          "lg": '1028px',
+          "xl": '1280px',
+          "2xl": '1440px'
+        }
+      }
+    }
+  </script>
+  <title>KITO - Kid Toy</title>
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="header_top">
+      <div class="container relative flex justify-between gap-4">
+        <span class="text-[#1a1114]/60">KIOT - Every day low price</span>
+        <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  text-[#C81B10] text-center grow">Free
+          Delivery on orders over £120. Don't miss discount.</span>
+        <div class="price">
+          <li>
+            <span>ENG
+              <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                <path
+                  d="M6.69336 0.412109L3.96875 3.10742L1.24414 0.412109C1.0293 0.177734 0.814453 0.177734 0.599609 0.412109C0.384766 0.626953 0.384766 0.841797 0.599609 1.05664L3.64648 4.10352C3.72461 4.20117 3.83203 4.25 3.96875 4.25C4.10547 4.25 4.21289 4.20117 4.29102 4.10352L7.33789 1.05664C7.55273 0.841797 7.55273 0.626953 7.33789 0.412109C7.12305 0.177734 6.9082 0.177734 6.69336 0.412109Z"
+                  fill="#1A1114" />
+              </svg>
+            </span>
+
+          </li>
+          <li>
+            <span>USD
+              <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                <path
+                  d="M6.69336 0.412109L3.96875 3.10742L1.24414 0.412109C1.0293 0.177734 0.814453 0.177734 0.599609 0.412109C0.384766 0.626953 0.384766 0.841797 0.599609 1.05664L3.64648 4.10352C3.72461 4.20117 3.83203 4.25 3.96875 4.25C4.10547 4.25 4.21289 4.20117 4.29102 4.10352L7.33789 1.05664C7.55273 0.841797 7.55273 0.626953 7.33789 0.412109C7.12305 0.177734 6.9082 0.177734 6.69336 0.412109Z"
+                  fill="#1A1114" />
+              </svg>
+            </span>
+
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="wrap-navbar">
+      <div class="navbar container relative  flex justify-between gap-[30px]">
+        <nav class="flex gap-10 order" id="header-nav">
+          <a href="/">Home</a>
+          <a href="/">Shop</a>
+          <li>Page
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+              <path
+                d="M6.69336 0.412109L3.96875 3.10742L1.24414 0.412109C1.0293 0.177734 0.814453 0.177734 0.599609 0.412109C0.384766 0.626953 0.384766 0.841797 0.599609 1.05664L3.64648 4.10352C3.72461 4.20117 3.83203 4.25 3.96875 4.25C4.10547 4.25 4.21289 4.20117 4.29102 4.10352L7.33789 1.05664C7.55273 0.841797 7.55273 0.626953 7.33789 0.412109C7.12305 0.177734 6.9082 0.177734 6.69336 0.412109Z"
+                fill="#1A1114" />
+            </svg>
+          </li>
+          <a href="/">Contact</a>
+        </nav>
+        <a class="logo absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" href="/">KITO</a>
+        <div class="list-icon">
+          <div class="icon icon_search">
+            <input type="text">
+            <img src="/assets/icon-search.png" />
+          </div>
+          <span class="icon icon_cart">
+            <img src="/assets/icon-cart.jpg" />
+            <span class="icon--noti">0</span>
+          </span>
+          <span class="icon icon_heart">
+            <img src="/assets/icon-heart.jpg" />
+            <span class="icon--noti">0</span>
+          </span>
+        </div>
+        <button class="icon-menu" id="button-show-nav">
+          <span class="icon-1"></span>
+          <span class="icon-2"></span>
+          <span class="icon-3"></span>
+        </button>
+
+      </div>
+    </div>
+  </header>
+  <section class="section container" id="section--1">
+    <h2 class="title ">About Us</h2>
+    <div class="mt-[15px] breadcrumb ">
+      <a href="/">Home</a><span class="text-[#1A1114]/20">About</span>
+    </div>
+    <div class="banner flex wrap">
+      <div class="content width-[50%]">
+        <div>
+          <span class="desktop">About Us</span>
+          <span class="mobile">SPRCICAL PRICE</span>
+        </div>
+        <p class="title capitalize">Bring exciting moments of fun while playing & learning for children.</p>
+        <a href="/" class="uppercase button button--ping">contact us</a>
+      </div>
+      <div class="video width-[50%]">
+        <img class="block width-[100%]" src="/assets/img-1.jpg" alt="">
+        <button class="icon-play">
+          <img src="/assets/icon-play.jpg" />
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="section container" id="section--2">
+    <h2 class="title capitalize mb-[50px] text-center mb-[50px]">What we are proud of.</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-[30px] items-stretch">
+      <div class="item">
+        <span class="item_number">20+</span>
+        <h4 class="item_title title title--small">Total top services</h4>
+        <p class="item_desc text-basic">Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+      </div>
+      <div class="item">
+        <span class="item_number">15+</span>
+        <h4 class="item_title title title--small">Countries</h4>
+        <p class="item_desc text-basic">Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+      </div>
+      <div class="item">
+        <span class="item_number">98%</span>
+        <h4 class="item_title title title--small">Positive Feedback</h4>
+        <p class="item_desc text-basic">Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+      </div>
+      <div class="item">
+        <span class="item_number ">2,558</span>
+        <h4 class="item_title title title--small">Usual users</h4>
+        <p class="item_desc text-basic">Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+      </div>
+    </div>
+
+
+  </section>
+  <section class="section container" id="section--3">
+    <div class="about grid grid-cols-2 lg:grid-cols-3 items-center gap-x-4 gap-y-5 lg:gap-[30px]">
+      <div class="img-1 about_item max-h-[550px]">
+        <img src="/assets/img-2.jpg" alt="">
+      </div>
+      <div class="img-2 about_item max-h-[675px]">
+        <img src="/assets/img-3.jpg" alt="">
+      </div>
+      <div class="content about_item text-center  lg:max-h-[550px] col-span-2 lg:col-span-1">
+        <h3 class="title">
+          Big love for our lovely kids.
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Ut enim
+          ad minim veniam, quis nostrud exercitation.</p>
+        <a href="/" class="button">Contact Us</a>
+      </div>
+    </div>
+  </section>
+  <section class="section container " id="section--4">
+    <h2 class="title capitalize mb-[50px] text-center mb-[50px]">Our Team</h2>
+    <div class="list-item--team grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 items-center gap-[30px]">
+      <div class="item">
+        <img class="item_ava" src="/assets/Mask group.jpg" alt="">
+        <h4 class="item_name title title--small">Name 01</h4>
+        <span class="item_title text-basic">CEO & Founder</span>
+        <p class="item_decs text-basic">Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+        <nav class="list-icon">
+          <a href="/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="/"><i class="fa-brands fa-twitter"></i></a>
+          <a href="/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="/"><i class="fa-brands fa-youtube"></i></a>
+        </nav>
+      </div>
+      <div class="item">
+        <img class="item_ava" src="/assets/Mask group (1).jpg" alt="">
+        <h4 class="item_name title title--small">Name 01</h4>
+        <span class="item_title text-basic">Personnel</span>
+        <p class="item_decs text-basic">Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+        <nav class="list-icon">
+          <a href="/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="/"><i class="fa-brands fa-twitter"></i></a>
+          <a href="/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="/"><i class="fa-brands fa-youtube"></i></a>
+        </nav>
+      </div>
+      <div class="item">
+        <img class="item_ava" src="/assets/Mask group (2).jpg" alt="">
+        <h4 class="item_name title title--small">Name 01</h4>
+        <span class="item_title text-basic">Personnel</span>
+        <p class="item_decs text-basic">Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+        <nav class="list-icon">
+          <a href="/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="/"><i class="fa-brands fa-twitter"></i></a>
+          <a href="/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="/"><i class="fa-brands fa-youtube"></i></a>
+        </nav>
+      </div>
+      <div class="item">
+        <img class="item_ava" src="/assets/Mask group (3).jpg" alt="">
+        <h4 class="item_name title title--small">Name 01</h4>
+        <span class="item_title text-basic">Personnel</span>
+        <p class="item_decs text-basic">Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+        <nav class="list-icon">
+          <a href="/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="/"><i class="fa-brands fa-twitter"></i></a>
+          <a href="/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="/"><i class="fa-brands fa-youtube"></i></a>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <section class="section container" id="section--5">
+    <div class="wrap-list-item">
+      <div class="item"><img src="/assets/icon-truck.jpg" alt="">
+        <div>
+          <h4 class="title title--small">Free shipping</h4>
+          <span class="text-basic">Free shippng orders from $150</span>
+        </div>
+      </div>
+      <div class="item"><img src="/assets/icon-gift.jpg" alt="">
+        <div>
+          <h4 class="title title--small">Gift/Discount codes</h4>
+          <span class="text-basic">Many discount codes every day</span>
+        </div>
+      </div>
+      <div class="item"><img src="/assets/icon-change.jpg" alt="">
+        <div>
+          <h4 class="title title--small">Money return</h4>
+          <span class="text-basic">Return it within 30 days</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer_top flex justify-between">
+        <h3 class="logo">KITO</h3>
+        <div class="flex items-center  flex-col lg:flex-row w-full lg:w-3/4 2xl:w-1/2 gap-[30px]">
+          <p class="footer_title">
+            Join our list and get 20% off
+            your first purchase!
+          </p>
+          <form class="contact">
+            <i class="fa-regular fa-envelope text-[18px]"></i>
+            <input type="text" placeholder="Enter your email">
+            <button class="button">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer_bottom grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-[30px]">
+        <nav>
+          <h4 class="title title--small">Contact Us</h4>
+          <li class="item-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <span class="text-basic">560 King St W, Kingston, ON K7L 4V7, Canada</span>
+          </li>
+          <li>
+            <i class="fa-regular fa-envelope"></i>
+            <span class="text-basic">contactinfo@gmail.com</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-headphones"></i>
+            <span class="text-basic">+1 212 736 3100</span>
+          </li>
+        </nav>
+        <nav>
+          <h4 class="title title--small">Quick Links</h4>
+          <li>
+            <a href="/" class="text-basic">My Acount</a>
+          </li>
+          <li>
+            <a href="/" class="text-basic">Cart</a>
+          </li>
+          <li>
+            <a href="/" class="text-basic">Wishlist</a>
+          </li>
+          <li>
+            <a href="/" class="text-basic">Product Compare</a>
+          </li>
+        </nav>
+        <nav>
+          <h4 class="title title--small">Information</h4>
+          <li>
+            <a href="/" class="text-basic">Privacy policy</a>
+          </li>
+          <li>
+            <a href="/" class="text-basic">Refund policy</a>
+          </li>
+          <li>
+            <a href="/" class="text-basic">Shipping & Return</a>
+          </li>
+          <li>
+            <a href="/" class="text-basic">Term & conditions</a>
+          </li>
+        </nav>
+        <nav>
+          <h4 class="title title--small">Follow Us</h4>
+          <li class="item-icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <a href="/" class="text-basic">Facebook</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-twitter"></i>
+            <a href="/" class="text-basic">Tiwtter</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="/" class="text-basic">Instagram</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-youtube"></i>
+            <a href="/" class="text-basic">Youtobe</a>
+          </li>
+        </nav>
+      </div>
+    </div>
+    <p class="text-basic copy-right text-center">
+      Beae'stemplate © 2022. All Rights Reserved.
+    </p>
+  </footer>
+
+</body>
+<script src="/Js/index.js"></script>
+
+</html>
